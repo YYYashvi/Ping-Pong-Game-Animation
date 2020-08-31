@@ -1,0 +1,22 @@
+.box{
+	background-color: green;
+	width: 250px;
+	height: 250px;
+	position: relative;
+	animation: yashvi;
+	animation-duration: 2s;
+	animation-iteration-count:infinite;
+
+}
+
+@keyframes yashvi{
+	from{
+		width: 250px;
+		background: red;
+
+	}
+	to{
+		width:1357px;
+		background:yellow;
+	}
+}
